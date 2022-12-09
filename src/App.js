@@ -17,11 +17,11 @@ function App() {
       <Menu />
       <Routes>
         <Route path="/napa" element={<Home />}></Route>
-        <Route path="/info" element={<Info />}></Route>
-        <Route path="/news" element={<News />}></Route>
-        <Route path="/president" element={<President />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/napa/info" element={<Info />}></Route>
+        <Route path="/napa/news" element={<News />}></Route>
+        <Route path="/napa/president" element={<President />}></Route>
+        <Route path="/napa/about" element={<About />}></Route>
+        <Route path="/napa/contact" element={<Contact />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
       <Last />
