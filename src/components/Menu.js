@@ -11,7 +11,7 @@ const Menu = () => {
     <>
       <div className="bg-[#D9D9D9] font-mono">
         <div className="w-[90%] mx-auto flex py-3 h-[3.3rem]">
-          <Link to={"/"}>
+          <Link to={"/napa"}>
             <span
               onClick={() => handle_active("home")}
               className={
@@ -64,8 +64,8 @@ const Menu = () => {
               onClick={() => handle_active("others")}
               className={
                 active == "others"
-                  ? "mr-5 md:mr-8 md:text-[1rem] border-blue-600 hover:border-b-4 transition ease-in-out border-b-4"
-                  : "mr-5 md:mr-8 md:text-[1rem] border-blue-600 hover:border-b-4 transition ease-in-out delay-1000"
+                  ? "mr-5 md:mr-8 md:text-[1rem] border-blue-600 hover:border-b-4 transition ease-in-out border-b-4 hidden md:block"
+                  : "mr-5 md:mr-8 md:text-[1rem] border-blue-600 hover:border-b-4 transition ease-in-out delay-1000 hidden md:block"
               }
             >
               others
